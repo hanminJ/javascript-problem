@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>	
+<body>
+<script>
+    var userid = prompt("아이디를 입력하세요.");
+    if(userid=="admin")
+    {
+        document.write("프로그램 접근이 가능합니다.")
+
+    }
+    else
+    {
+        var level = Number(prompt("레벨을 입력해주세요"));
+        if(level>0&&level<8)
+        {
+            document.write("프로그램 접근이 가능합니다.")
+        }
+        else
+        {
+            document.write("프로그램 접근이 불가능합니다.")
+        }
+    }
+</script>
+</body>  
+</html>
