@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>	
+<body>
+<div id="result"></div>
+<script>
+    var contents = "";
+    var n = 1;
+    while (n<=4) {
+        contents += "<img src='img/fish1.jpg'>"; //contents에 이미지가 계속 더해짐 contents=="<img src~~~~>"+"<img src~~~~>"+"<img src~~~~>"+"<img src~~~~>"
+        n++;
+    }
+    document.getElementById("result").innerHTML = contents;
+</script>
+</body>  
+</html>
